@@ -142,10 +142,14 @@ established implementations:
   project was forked from a 2D game framework the author wrote a few years
   earlier (itself built by following the OpenGL tutorials above), and the
   general-purpose scaffolding was carried over and adapted.
-- **Original contribution.** The simulation itself — the MAC-grid fluid solver,
-  the particle/grid transfer schemes (PIC, FLIP, APIC, PolyPIC), the MPM solver,
-  the projection/extrapolation/advection kernels, the diagnostics, and the
-  experiment orchestration — is the work of this thesis.
+- **Original contribution.** The numerical methods themselves — the MAC grid and
+  pressure projection, the PIC/FLIP/APIC/PolyPIC transfer schemes, and MPM — are
+  established techniques from the literature and are *not* invented here; they are
+  attributed to their source papers in the thesis. What this project contributes
+  is the *implementation* of those methods in a single, directly comparable
+  codebase and the evaluation platform (EPIC) built around them: the shared
+  solver/runner structure, the diagnostics instrumentation, and the experiment
+  orchestration used to compare the transfer schemes for this thesis.
 - **Third-party libraries.** GLM, GLAD, Dear ImGui, and stb are vendored under
   `include/`/`src/` and remain under their respective upstream licenses; GLFW,
   Intel TBB, and Eigen3 are external dependencies under their own licenses.
