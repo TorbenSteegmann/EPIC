@@ -1,0 +1,24 @@
+{
+  "_description": "Settling-pool ringing-instability metric run across the full method set (incl. pure FLIP) for the scene-normalised residual score.",
+  "name": "ringing_instability_metric",
+  "scene": "settling_pool",
+  "dim": 2,
+  "domain": 64,
+  "dx": 1.0,
+  "dt": 0.1,
+  "duration": 120.0,
+  "jitter_seed": 1145130306,
+  "adaptive": false,
+  "diagnostics": true,
+  "export_particles": false,
+  "methods": ["PIC", "FLIP_095", "FLIP_100", "APIC", "POLYPIC"],
+  "render": {"color": "ringing", "width": 960, "height": 960},
+  "analysis": {
+    "windows": [
+      {"name": "impact", "start": 0.0, "end": 30.0},
+      {"name": "settling", "start": 30.0, "end": 60.0},
+      {"name": "late", "start": 60.0, "end": 120.0}
+    ],
+    "evaluation_window": "late"
+  }
+}

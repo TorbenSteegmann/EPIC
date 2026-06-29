@@ -1,0 +1,41 @@
+{
+  "method": {
+    "key": "FLIP_098",
+    "label": "FLIP 0.98",
+    "solver": "flip",
+    "flip_percent": 0.98,
+    "polypic_modes": null
+  },
+  "command": [
+    "D:\\Arbeitsplatz\\Universit\u00e4t\\Master_Thesis\\Code\\2D_Fluids\\build\\Desktop_x86_windows_msvc2026_pe_64bit-Release\\Fluid_Simulation_Profile.exe",
+    "--dim",
+    "2",
+    "--scene",
+    "6",
+    "--steps",
+    "1800",
+    "--domain",
+    "64",
+    "--dx",
+    "1",
+    "--dt",
+    "0.10000000000000001",
+    "--jitter-seed",
+    "0",
+    "--no-adaptive",
+    "--solver",
+    "flip",
+    "--flip-percent",
+    "0.98",
+    "--export",
+    "--export-particles",
+    "--particle-fps",
+    "10",
+    "--out",
+    "D:\\Arbeitsplatz\\Universit\u00e4t\\Master_Thesis\\Orchestrator\\outputs\\settling_sweep_flip\\20260628-202342\\runs\\FLIP_098"
+  ],
+  "steps": 1800,
+  "particles": 5932,
+  "elapsed_seconds": 119.067,
+  "created_at": "2026-06-28T20:29:57"
+}

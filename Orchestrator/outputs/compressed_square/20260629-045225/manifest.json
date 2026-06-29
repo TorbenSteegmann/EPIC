@@ -1,0 +1,51 @@
+{
+  "preset_name": "compressed_square_thesis_solid",
+  "engine": "mpm",
+  "scene": "compressed_hyperelastic_square",
+  "scene_id": 1,
+  "dim": 2,
+  "steps": 1000000,
+  "dt": 1e-05,
+  "dx": 1.0,
+  "domain": 64,
+  "jitter_seed": 1,
+  "engine_options": {
+    "square_cells": 12,
+    "particles_per_cell_axis": 2,
+    "compression": 0.9,
+    "gravity": false,
+    "diagnostic_samples": 600,
+    "polypic_regularization": 0.02
+  },
+  "export_particles": true,
+  "export_fps": 24.0,
+  "executable": "D:\\Arbeitsplatz\\Universit\u00e4t\\Master_Thesis\\Code\\2D_Fluids\\build\\Desktop_x86_windows_msvc2026_pe_64bit-Release\\MPM_PolyPIC_Experiment.exe",
+  "code_commit": "47d7105fb1efe86745d9bea24e5e74fdf413b30a",
+  "created_at": "2026-06-29T04:52:25",
+  "methods": [
+    {
+      "key": "PIC",
+      "status": "ran",
+      "particles": 576,
+      "elapsed_seconds": 433.062
+    },
+    {
+      "key": "FLIP_095",
+      "status": "ran",
+      "particles": 576,
+      "elapsed_seconds": 433.291
+    },
+    {
+      "key": "APIC",
+      "status": "ran",
+      "particles": 576,
+      "elapsed_seconds": 449.257
+    },
+    {
+      "key": "POLYPIC",
+      "status": "ran",
+      "particles": 576,
+      "elapsed_seconds": 724.077
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+# Build output
+build/
+*.o
+*.obj
+*.exe
+*.dll
+*.pdb
+*.ilk
+
+# Python
+**/__pycache__/
+*.pyc
+
+# Orchestrator runtime artifacts
+Orchestrator/logs/
+Orchestrator/paths.local.json
+
+# Rendered media
+*.mp4
+*.png
+*.svg
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.qtcreator

@@ -1,0 +1,6 @@
+{
+  "_comment": "Optional. Copy to paths.local.json only if you need to point the orchestrator at executables outside the default <project>/build tree. By default the binaries are discovered automatically. Environment variables (FLUID_PROFILE_EXE, MPM_EXPERIMENT_EXE, FLUID_PARTICLE_RENDERER_EXE) take precedence over this file.",
+  "headless": "../build/Fluid_Simulation_Profile.exe",
+  "mpm_experiment": "../build/MPM_PolyPIC_Experiment.exe",
+  "particle_renderer": "../build/Fluid_Particle_Renderer.exe"
+}

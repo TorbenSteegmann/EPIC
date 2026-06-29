@@ -1,0 +1,44 @@
+{
+  "preset_name": "cfl_settling_dx_05_dt005",
+  "engine": "fluid",
+  "scene": "settling_pool",
+  "scene_id": 6,
+  "dim": 2,
+  "steps": 900,
+  "dt": 0.2,
+  "dx": 2.0,
+  "domain": 64,
+  "jitter_seed": 1,
+  "engine_options": {},
+  "export_particles": true,
+  "export_fps": 5.0,
+  "executable": "D:\\Arbeitsplatz\\Universit\u00e4t\\Master_Thesis\\Code\\2D_Fluids\\build\\Desktop_x86_windows_msvc2026_pe_64bit-Release\\Fluid_Simulation_Profile.exe",
+  "code_commit": "47d7105fb1efe86745d9bea24e5e74fdf413b30a",
+  "created_at": "2026-06-29T17:12:18",
+  "methods": [
+    {
+      "key": "PIC",
+      "status": "ran",
+      "particles": 1356,
+      "elapsed_seconds": 6.141
+    },
+    {
+      "key": "FLIP_095",
+      "status": "ran",
+      "particles": 1356,
+      "elapsed_seconds": 5.949
+    },
+    {
+      "key": "APIC",
+      "status": "ran",
+      "particles": 1356,
+      "elapsed_seconds": 5.518
+    },
+    {
+      "key": "POLYPIC",
+      "status": "ran",
+      "particles": 1356,
+      "elapsed_seconds": 5.807
+    }
+  ]
+}

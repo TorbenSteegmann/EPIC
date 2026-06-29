@@ -1,0 +1,42 @@
+{
+  "preset_name": "dam_3d_thesis",
+  "scene": "dam_break",
+  "scene_id": 0,
+  "dim": 3,
+  "steps": 1800,
+  "dt": 0.1,
+  "dx": 1.0,
+  "domain": 64,
+  "jitter_seed": 1,
+  "export_particles": true,
+  "export_fps": 10.0,
+  "executable": "D:\\Arbeitsplatz\\Universit\u00e4t\\Master_Thesis\\Code\\2D_Fluids\\build\\Desktop_x86_windows_msvc2026_pe_64bit-Release\\Fluid_Simulation_Profile.exe",
+  "code_commit": "411e3628e8736287d4db1698b381eb0ebb10c4fa",
+  "created_at": "2026-06-28T22:33:00",
+  "methods": [
+    {
+      "key": "PIC",
+      "status": "ran",
+      "particles": 635376,
+      "elapsed_seconds": 15180.915
+    },
+    {
+      "key": "FLIP_095",
+      "status": "ran",
+      "particles": 635376,
+      "elapsed_seconds": 15480.782
+    },
+    {
+      "key": "APIC",
+      "status": "ran",
+      "particles": 635376,
+      "elapsed_seconds": 15907.793
+    },
+    {
+      "key": "POLYPIC",
+      "status": "ran",
+      "particles": 635376,
+      "elapsed_seconds": 17836.565
+    }
+  ]
+}

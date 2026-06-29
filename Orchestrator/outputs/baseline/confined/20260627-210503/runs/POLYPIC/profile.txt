@@ -1,0 +1,20 @@
+Fluid profile run
+dimension=2
+steps=1200
+simulated_substeps=1200
+domain=64
+dx=1
+frame_dt=0.1
+scene=5
+fluid_solver=polypic
+polypic_modes=4
+jitter_seed=0
+flip_percent=0.95
+adaptive=false
+diagnostics=true
+particle_export=1
+particle_fps=10
+particle_frames=1201
+particle_file=D:\Arbeitsplatz\Universität\Master_Thesis\Orchestrator\outputs\confined\20260627-210503\runs\POLYPIC\particle_frames.bin
+particles=15376
+wall_ms=350221.689

@@ -1,0 +1,27 @@
+{
+  "_description": "Confined vortex (2D only). Angular-momentum scene that replaced rigid rotation. Tune domain/dt/duration to match the reported confined-vortex runs before publishing.",
+  "name": "compressed_square_thesis_solid",
+  "scene": "compressed_hyperelastic_square",
+  "dim": 2,
+  "domain": 64,
+  "dx": 1.0,
+  "dt": 1e-05,
+  "jitter_seed": 1,
+  "adaptive": false,
+  "diagnostics": true,
+  "methods": [
+    "PIC",
+    "FLIP_095",
+    "APIC",
+    "POLYPIC"
+  ],
+  "render": {
+    "color": "solid",
+    "width": 960,
+    "height": 960,
+    "video": true,
+    "snapshot_interval": 5.0
+  },
+  "particle_fps": 24.0,
+  "duration": 10.0
+}

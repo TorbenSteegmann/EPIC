@@ -1,0 +1,20 @@
+Fluid profile run
+dimension=2
+steps=1800
+simulated_substeps=1800
+domain=64
+dx=1
+frame_dt=0.1
+scene=4
+fluid_solver=flip
+polypic_modes=4
+jitter_seed=0
+flip_percent=0
+adaptive=false
+diagnostics=true
+particle_export=1
+particle_fps=10
+particle_frames=1801
+particle_file=D:\Arbeitsplatz\Universität\Master_Thesis\Orchestrator\outputs\taylor\20260627-202308\runs\PIC\particle_frames.bin
+particles=15376
+wall_ms=666341.466

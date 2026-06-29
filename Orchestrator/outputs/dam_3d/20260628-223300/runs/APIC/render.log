@@ -1,0 +1,93 @@
+Rendered 1801 frame(s) at 10 FPS to "D:\\Arbeitsplatz\\Universität\\Master_Thesis\\Orchestrator\\outputs\\dam_3d_thesis\\20260628-223300\\runs\\APIC\\particle_video_frames"
+Wrote 37 snapshot(s).
+ffmpeg version 7.1-essentials_build-www.gyan.dev Copyright (c) 2000-2024 the FFmpeg developers
+  built with gcc 14.2.0 (Rev1, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.100 / 61. 19.100
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+Input #0, image2, from 'D:\Arbeitsplatz\UniversitÃ¤t\Master_Thesis\Orchestrator\outputs\dam_3d_thesis\20260628-223300\runs\APIC\particle_video_frames\frame_%06d.png':
+  Duration: 00:03:00.10, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: png, rgb24(pc, gbr/unknown/unknown), 960x960, 10 fps, 10 tbr, 10 tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> h264 (libx264))
+Press [q] to stop, [?] for help
+[libx264 @ 000001dd1fb7fcc0] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[libx264 @ 000001dd1fb7fcc0] profile High, level 3.1, 4:2:0, 8-bit
+[libx264 @ 000001dd1fb7fcc0] 264 - core 164 r3192 c24e06c - H.264/MPEG-4 AVC codec - Copyleft 2003-2024 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=18 lookahead_threads=3 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=10 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=18.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to 'D:\Arbeitsplatz\UniversitÃ¤t\Master_Thesis\Orchestrator\outputs\dam_3d_thesis\20260628-223300\runs\APIC\particle_video.mp4':
+  Metadata:
+    encoder         : Lavf61.7.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(tv, progressive), 960x960, q=2-31, 10 fps, 10240 tbn
+      Metadata:
+        encoder         : Lavc61.19.100 libx264
+      Side data:
+        cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+frame=    5 fps=0.0 q=20.0 size=       0KiB time=00:00:00.30 bitrate=   1.3kbits/s speed=0.536x    
+frame=   89 fps= 81 q=20.0 size=     256KiB time=00:00:08.70 bitrate= 241.1kbits/s speed=7.88x    
+frame=  137 fps= 83 q=20.0 size=    1792KiB time=00:00:13.50 bitrate=1087.4kbits/s speed=8.14x    
+frame=  158 fps= 70 q=20.0 size=    2304KiB time=00:00:15.70 bitrate=1202.2kbits/s speed=6.94x    
+frame=  212 fps= 76 q=20.0 size=    2560KiB time=00:00:21.00 bitrate= 998.7kbits/s speed= 7.5x    
+frame=  266 fps= 80 q=20.0 size=    3328KiB time=00:00:26.40 bitrate=1032.7kbits/s speed=7.92x    
+frame=  304 fps= 79 q=20.0 size=    3584KiB time=00:00:30.20 bitrate= 972.2kbits/s speed=7.81x    
+frame=  357 fps= 81 q=20.0 size=    3584KiB time=00:00:35.50 bitrate= 827.1kbits/s speed=8.07x    
+frame=  391 fps= 79 q=20.0 size=    3840KiB time=00:00:38.90 bitrate= 808.7kbits/s speed=7.89x    
+frame=  436 fps= 80 q=20.0 size=    4096KiB time=00:00:43.40 bitrate= 773.2kbits/s speed=7.95x    
+frame=  483 fps= 81 q=20.0 size=    4096KiB time=00:00:48.10 bitrate= 697.6kbits/s speed=8.04x    
+frame=  529 fps= 81 q=20.0 size=    4352KiB time=00:00:52.70 bitrate= 676.5kbits/s speed=8.09x    
+frame=  576 fps= 82 q=20.0 size=    4608KiB time=00:00:57.40 bitrate= 657.7kbits/s speed=8.13x    
+frame=  600 fps= 79 q=20.0 size=    4608KiB time=00:00:59.80 bitrate= 631.3kbits/s speed=7.83x    
+frame=  628 fps= 76 q=20.0 size=    4608KiB time=00:01:02.60 bitrate= 603.0kbits/s speed=7.61x    
+frame=  659 fps= 75 q=20.0 size=    4864KiB time=00:01:05.70 bitrate= 606.5kbits/s speed= 7.5x    
+frame=  700 fps= 75 q=20.0 size=    4864KiB time=00:01:09.80 bitrate= 570.9kbits/s speed=7.52x    
+frame=  740 fps= 75 q=20.0 size=    4864KiB time=00:01:13.80 bitrate= 539.9kbits/s speed=7.51x    
+frame=  785 fps= 76 q=20.0 size=    5120KiB time=00:01:18.30 bitrate= 535.7kbits/s speed=7.57x    
+frame=  820 fps= 75 q=20.0 size=    5120KiB time=00:01:21.80 bitrate= 512.8kbits/s speed=7.52x    
+frame=  866 fps= 76 q=20.0 size=    5376KiB time=00:01:26.40 bitrate= 509.7kbits/s speed=7.58x    
+frame=  903 fps= 76 q=20.0 size=    5376KiB time=00:01:30.10 bitrate= 488.8kbits/s speed=7.56x    
+frame=  951 fps= 76 q=20.0 size=    5376KiB time=00:01:34.90 bitrate= 464.1kbits/s speed=7.63x    
+frame=  993 fps= 77 q=20.0 size=    5632KiB time=00:01:39.10 bitrate= 465.6kbits/s speed=7.64x    
+frame= 1039 fps= 77 q=20.0 size=    5632KiB time=00:01:43.70 bitrate= 444.9kbits/s speed=7.69x    
+frame= 1087 fps= 78 q=20.0 size=    5632KiB time=00:01:48.50 bitrate= 425.2kbits/s speed=7.74x    
+frame= 1126 fps= 77 q=20.0 size=    5888KiB time=00:01:52.40 bitrate= 429.1kbits/s speed=7.73x    
+frame= 1170 fps= 78 q=20.0 size=    5888KiB time=00:01:56.80 bitrate= 413.0kbits/s speed=7.75x    
+frame= 1220 fps= 78 q=20.0 size=    5888KiB time=00:02:01.80 bitrate= 396.0kbits/s speed= 7.8x    
+frame= 1250 fps= 77 q=20.0 size=    5888KiB time=00:02:04.80 bitrate= 386.5kbits/s speed=7.73x    
+frame= 1300 fps= 78 q=20.0 size=    6144KiB time=00:02:09.80 bitrate= 387.8kbits/s speed=7.78x    
+frame= 1334 fps= 78 q=20.0 size=    6144KiB time=00:02:13.20 bitrate= 377.9kbits/s speed=7.74x    
+frame= 1383 fps= 78 q=20.0 size=    6144KiB time=00:02:18.10 bitrate= 364.5kbits/s speed=7.79x    
+frame= 1421 fps= 78 q=20.0 size=    6400KiB time=00:02:21.90 bitrate= 369.5kbits/s speed=7.77x    
+frame= 1475 fps= 79 q=20.0 size=    6400KiB time=00:02:27.30 bitrate= 355.9kbits/s speed=7.84x    
+frame= 1506 fps= 78 q=20.0 size=    6400KiB time=00:02:30.40 bitrate= 348.6kbits/s speed=7.78x    
+frame= 1556 fps= 78 q=20.0 size=    6400KiB time=00:02:35.40 bitrate= 337.4kbits/s speed=7.82x    
+frame= 1590 fps= 78 q=20.0 size=    6656KiB time=00:02:38.80 bitrate= 343.4kbits/s speed=7.79x    
+frame= 1639 fps= 78 q=20.0 size=    6656KiB time=00:02:43.70 bitrate= 333.1kbits/s speed=7.83x    
+frame= 1675 fps= 78 q=20.0 size=    6656KiB time=00:02:47.30 bitrate= 325.9kbits/s speed= 7.8x    
+frame= 1723 fps= 78 q=20.0 size=    6656KiB time=00:02:52.10 bitrate= 316.8kbits/s speed=7.84x    
+frame= 1780 fps= 79 q=20.0 size=    6912KiB time=00:02:57.80 bitrate= 318.5kbits/s speed=7.91x    
+[out#0/mp4 @ 000001dd1f6baec0] video:7032KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.311108%
+frame= 1801 fps= 79 q=-1.0 Lsize=    7054KiB time=00:02:59.90 bitrate= 321.2kbits/s speed=7.91x    
+[libx264 @ 000001dd1fb7fcc0] frame I:8     Avg QP: 3.13  size: 62944
+[libx264 @ 000001dd1fb7fcc0] frame P:485   Avg QP: 9.34  size:  6443
+[libx264 @ 000001dd1fb7fcc0] frame B:1308  Avg QP:17.00  size:  2731
+[libx264 @ 000001dd1fb7fcc0] consecutive B-frames:  2.2%  2.4%  1.2% 94.2%
+[libx264 @ 000001dd1fb7fcc0] mb I  I16..4: 47.7% 28.1% 24.1%
+[libx264 @ 000001dd1fb7fcc0] mb P  I16..4:  0.3%  0.3%  0.5%  P16..4:  1.6%  1.2%  1.3%  0.0%  0.0%    skip:94.8%
+[libx264 @ 000001dd1fb7fcc0] mb B  I16..4:  0.0%  0.0%  0.1%  B16..8:  3.0%  1.0%  0.5%  direct: 0.4%  skip:94.9%  L0:36.6% L1:46.1% BI:17.3%
+[libx264 @ 000001dd1fb7fcc0] 8x8 transform intra:24.0% inter:12.3%
+[libx264 @ 000001dd1fb7fcc0] coded y,uvDC,uvAC intra: 55.7% 62.9% 61.6% inter: 1.2% 2.5% 2.4%
+[libx264 @ 000001dd1fb7fcc0] i16 v,h,dc,p: 41% 53%  3%  3%
+[libx264 @ 000001dd1fb7fcc0] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 13% 45% 27%  3%  2%  2%  3%  2%  3%
+[libx264 @ 000001dd1fb7fcc0] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 22% 32% 17%  4%  5%  4%  6%  4%  5%
+[libx264 @ 000001dd1fb7fcc0] i8c dc,h,v,p: 53% 30% 13%  5%
+[libx264 @ 000001dd1fb7fcc0] Weighted P-Frames: Y:0.0% UV:0.0%
+[libx264 @ 000001dd1fb7fcc0] ref P L0: 67.6%  7.8% 14.6% 10.0%
+[libx264 @ 000001dd1fb7fcc0] ref B L0: 75.3% 22.0%  2.7%
+[libx264 @ 000001dd1fb7fcc0] ref B L1: 97.4%  2.6%
+[libx264 @ 000001dd1fb7fcc0] kb/s:319.82
+Wrote video to D:\Arbeitsplatz\Universität\Master_Thesis\Orchestrator\outputs\dam_3d_thesis\20260628-223300\runs\APIC\particle_video.mp4.

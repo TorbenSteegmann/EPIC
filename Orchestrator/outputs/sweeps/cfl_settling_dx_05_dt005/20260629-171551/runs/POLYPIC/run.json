@@ -1,0 +1,41 @@
+{
+  "method": {
+    "key": "POLYPIC",
+    "label": "PolyPIC",
+    "solver": "polypic",
+    "flip_percent": null,
+    "polypic_modes": 4
+  },
+  "command": [
+    "D:\\Arbeitsplatz\\Universit\u00e4t\\Master_Thesis\\Code\\2D_Fluids\\build\\Desktop_x86_windows_msvc2026_pe_64bit-Release\\Fluid_Simulation_Profile.exe",
+    "--dim",
+    "2",
+    "--scene",
+    "6",
+    "--steps",
+    "3600",
+    "--domain",
+    "64",
+    "--dx",
+    "0.5",
+    "--dt",
+    "0.050000000000000003",
+    "--jitter-seed",
+    "1",
+    "--no-adaptive",
+    "--solver",
+    "polypic",
+    "--polypic-modes",
+    "4",
+    "--export",
+    "--export-particles",
+    "--particle-fps",
+    "20",
+    "--out",
+    "D:\\Arbeitsplatz\\Universit\u00e4t\\Master_Thesis\\Orchestrator\\outputs\\cfl_settling_dx_05_dt005\\20260629-171551\\runs\\POLYPIC"
+  ],
+  "steps": 3600,
+  "particles": 25440,
+  "elapsed_seconds": 1811.995,
+  "created_at": "2026-06-29T17:46:03"
+}

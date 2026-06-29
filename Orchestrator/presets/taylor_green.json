@@ -1,0 +1,16 @@
+{
+  "_description": "Taylor-Green vortex (2D only). Energy-retention / dissipation scene; includes the PIC/FLIP blend sweep. Tune domain/dt/duration to match the reported TGV runs before publishing.",
+  "name": "taylor_green",
+  "scene": "taylor_green_vortex",
+  "dim": 2,
+  "domain": 64,
+  "dx": 1.0,
+  "dt": 0.05,
+  "duration": 20.0,
+  "jitter_seed": 0,
+  "adaptive": false,
+  "diagnostics": true,
+  "export_particles": false,
+  "methods": ["PIC", "FLIP_050", "FLIP_095", "FLIP_098", "FLIP_099", "FLIP_100", "APIC", "POLYPIC"],
+  "render": {"color": "speed", "width": 960, "height": 960}
+}

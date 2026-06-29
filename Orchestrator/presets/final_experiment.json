@@ -1,0 +1,30 @@
+{
+  "_description": "Headline ringing experiment: a fluid block settling to hydrostatic rest at dt=0.1. Mirrors the CG2000 settling-pool run. This is the default preset run by run_final_experiment.bat.",
+  "_doc": {
+    "scene": "name from config_schema.SCENES (settling_pool = enum 6)",
+    "methods": "catalogue keys from config_schema.METHODS",
+    "steps_vs_duration": "give 'duration' (seconds) or 'steps'; duration wins via round(duration/dt)",
+    "analysis": "consumed by the ringing post-processing, not by the headless run"
+  },
+  "name": "final_experiment",
+  "scene": "settling_pool",
+  "dim": 2,
+  "domain": 64,
+  "dx": 1.0,
+  "dt": 0.1,
+  "duration": 120.0,
+  "jitter_seed": 1145130306,
+  "adaptive": false,
+  "diagnostics": true,
+  "export_particles": false,
+  "methods": ["PIC", "FLIP_095", "FLIP_100", "APIC", "POLYPIC"],
+  "render": {"color": "ringing", "width": 960, "height": 960},
+  "analysis": {
+    "windows": [
+      {"name": "impact", "start": 0.0, "end": 30.0},
+      {"name": "settling", "start": 30.0, "end": 60.0},
+      {"name": "late", "start": 60.0, "end": 120.0}
+    ],
+    "evaluation_window": "late"
+  }
+}

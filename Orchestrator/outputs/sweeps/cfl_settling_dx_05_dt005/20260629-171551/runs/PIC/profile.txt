@@ -1,0 +1,20 @@
+Fluid profile run
+dimension=2
+steps=3600
+simulated_substeps=3600
+domain=64
+dx=0.5
+frame_dt=0.05
+scene=6
+fluid_solver=flip
+polypic_modes=4
+jitter_seed=1
+flip_percent=0
+adaptive=false
+diagnostics=true
+particle_export=1
+particle_fps=20
+particle_frames=3601
+particle_file=D:\Arbeitsplatz\Universität\Master_Thesis\Orchestrator\outputs\cfl_settling_dx_05_dt005\20260629-171551\runs\PIC\particle_frames.bin
+particles=25440
+wall_ms=2396924.661

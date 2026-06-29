@@ -1,0 +1,57 @@
+Streaming 240 frames with max_speed=16.0241
+Wrote 3 snapshots to D:\Arbeitsplatz\Universität\Master_Thesis\Orchestrator\outputs\compressed_square_thesis_solid\20260629-045225\runs\APIC\snapshots
+Wrote video to D:\Arbeitsplatz\Universität\Master_Thesis\Orchestrator\outputs\compressed_square_thesis_solid\20260629-045225\runs\APIC\particle_video.mp4
+ffmpeg version 7.1-essentials_build-www.gyan.dev Copyright (c) 2000-2024 the FFmpeg developers
+  built with gcc 14.2.0 (Rev1, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.100 / 61. 19.100
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+Input #0, rawvideo, from 'fd:':
+  Duration: N/A, start: 0.000000, bitrate: 530841 kb/s
+  Stream #0:0: Video: rawvideo (RGB[24] / 0x18424752), rgb24, 960x960, 530841 kb/s, 24 tbr, 24 tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (rawvideo (native) -> h264 (libx264))
+[libx264 @ 000001c17c6b3d40] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[libx264 @ 000001c17c6b3d40] profile High, level 3.1, 4:2:0, 8-bit
+[libx264 @ 000001c17c6b3d40] 264 - core 164 r3192 c24e06c - H.264/MPEG-4 AVC codec - Copyleft 2003-2024 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=18 lookahead_threads=3 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=24 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=18.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to 'D:\Arbeitsplatz\UniversitÃ¤t\Master_Thesis\Orchestrator\outputs\compressed_square_thesis_solid\20260629-045225\runs\APIC\particle_video.mp4':
+  Metadata:
+    encoder         : Lavf61.7.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(tv, progressive), 960x960, q=2-31, 24 fps, 12288 tbn
+      Metadata:
+        encoder         : Lavc61.19.100 libx264
+      Side data:
+        cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+frame=    0 fps=0.0 q=0.0 size=       0KiB time=N/A bitrate=N/A speed=N/A    
+frame=    8 fps=7.8 q=23.0 size=       0KiB time=00:00:00.25 bitrate=   1.5kbits/s speed=0.243x    
+frame=   40 fps= 26 q=23.0 size=       0KiB time=00:00:01.58 bitrate=   0.2kbits/s speed=1.02x    
+frame=   74 fps= 36 q=23.0 size=       0KiB time=00:00:03.00 bitrate=   0.1kbits/s speed=1.45x    
+frame=  108 fps= 42 q=23.0 size=       0KiB time=00:00:04.41 bitrate=   0.1kbits/s speed=1.71x    
+frame=  140 fps= 45 q=23.0 size=       0KiB time=00:00:05.75 bitrate=   0.1kbits/s speed=1.85x    
+frame=  175 fps= 48 q=23.0 size=       0KiB time=00:00:07.20 bitrate=   0.1kbits/s speed=1.99x    
+[out#0/mp4 @ 000001c17c6a1580] video:220KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 1.631796%
+frame=  240 fps= 65 q=-1.0 Lsize=     224KiB time=00:00:09.91 bitrate= 185.0kbits/s speed=2.68x    
+[libx264 @ 000001c17c6b3d40] frame I:1     Avg QP: 4.54  size: 16639
+[libx264 @ 000001c17c6b3d40] frame P:65    Avg QP: 8.02  size:  1517
+[libx264 @ 000001c17c6b3d40] frame B:174   Avg QP:10.95  size:   630
+[libx264 @ 000001c17c6b3d40] consecutive B-frames:  2.1%  1.7%  6.2% 90.0%
+[libx264 @ 000001c17c6b3d40] mb I  I16..4: 93.9%  4.1%  2.0%
+[libx264 @ 000001c17c6b3d40] mb P  I16..4:  0.0%  0.0%  0.0%  P16..4:  0.7%  0.2%  0.3%  0.0%  0.0%    skip:98.6%
+[libx264 @ 000001c17c6b3d40] mb B  I16..4:  0.0%  0.0%  0.0%  B16..8:  0.8%  0.2%  0.2%  direct: 0.1%  skip:98.8%  L0:55.0% L1:43.5% BI: 1.5%
+[libx264 @ 000001c17c6b3d40] 8x8 transform intra:7.4% inter:8.2%
+[libx264 @ 000001c17c6b3d40] coded y,uvDC,uvAC intra: 3.3% 4.7% 4.7% inter: 0.2% 0.6% 0.6%
+[libx264 @ 000001c17c6b3d40] i16 v,h,dc,p: 91%  6%  2%  0%
+[libx264 @ 000001c17c6b3d40] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 27% 22% 51%  0%  0%  0%  0%  0%  0%
+[libx264 @ 000001c17c6b3d40] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 30% 25% 34%  2%  3%  1%  1%  1%  2%
+[libx264 @ 000001c17c6b3d40] i8c dc,h,v,p: 94%  3%  3%  0%
+[libx264 @ 000001c17c6b3d40] Weighted P-Frames: Y:0.0% UV:0.0%
+[libx264 @ 000001c17c6b3d40] ref P L0: 41.8%  1.9% 30.9% 25.4%
+[libx264 @ 000001c17c6b3d40] ref B L0: 63.7% 29.2%  7.1%
+[libx264 @ 000001c17c6b3d40] ref B L1: 91.6%  8.4%
+[libx264 @ 000001c17c6b3d40] kb/s:179.96

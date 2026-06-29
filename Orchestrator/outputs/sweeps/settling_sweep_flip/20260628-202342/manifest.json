@@ -1,0 +1,48 @@
+{
+  "preset_name": "settling_sweep_flip",
+  "scene": "settling_pool",
+  "scene_id": 6,
+  "dim": 2,
+  "steps": 1800,
+  "dt": 0.1,
+  "dx": 1.0,
+  "domain": 64,
+  "jitter_seed": 0,
+  "export_particles": true,
+  "export_fps": 10.0,
+  "executable": "D:\\Arbeitsplatz\\Universit\u00e4t\\Master_Thesis\\Code\\2D_Fluids\\build\\Desktop_x86_windows_msvc2026_pe_64bit-Release\\Fluid_Simulation_Profile.exe",
+  "code_commit": "85d4d4f5104323ac510d0c0656c424af87c1737e",
+  "created_at": "2026-06-28T20:23:42",
+  "methods": [
+    {
+      "key": "FLIP_050",
+      "status": "ran",
+      "particles": 5932,
+      "elapsed_seconds": 131.939
+    },
+    {
+      "key": "FLIP_095",
+      "status": "ran",
+      "particles": 5932,
+      "elapsed_seconds": 123.382
+    },
+    {
+      "key": "FLIP_098",
+      "status": "ran",
+      "particles": 5932,
+      "elapsed_seconds": 119.067
+    },
+    {
+      "key": "FLIP_099",
+      "status": "ran",
+      "particles": 5932,
+      "elapsed_seconds": 117.387
+    },
+    {
+      "key": "FLIP_100",
+      "status": "ran",
+      "particles": 5932,
+      "elapsed_seconds": 112.342
+    }
+  ]
+}

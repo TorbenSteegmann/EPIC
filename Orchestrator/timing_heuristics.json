@@ -1,0 +1,87 @@
+{
+  "particles": {
+    "compressed_hyperelastic_square|dim2|d64|dx1": 576,
+    "confined_vortex|dim2|d64|dx1": 15376,
+    "dam_break|dim2|d16|dx1": 208,
+    "dam_break|dim2|d64|dx1": 4880,
+    "dam_break|dim2|d64|dx4": 224,
+    "dam_break|dim3|d64|dx1": 635376,
+    "dam_break|dim3|d64|dx4": 7280,
+    "settling_pool|dim2|d64|dx0.5": 25440,
+    "settling_pool|dim2|d64|dx1": 5932,
+    "settling_pool|dim2|d64|dx2": 1356,
+    "taylor_green_vortex|dim2|d64|dx1": 15376
+  },
+  "render": {
+    "fluid": {
+      "rate": 2.987194888432994e-05,
+      "samples": 34
+    }
+  },
+  "step": {
+    "fluid|apic|dim2|export1": {
+      "rate": 6.885910672941448e-06,
+      "samples": 23
+    },
+    "fluid|apic|dim3|export0": {
+      "rate": 5.9991997939625315e-06,
+      "samples": 1
+    },
+    "fluid|apic|dim3|export1": {
+      "rate": 9.880655789928331e-06,
+      "samples": 6
+    },
+    "fluid|pic_flip|dim2|export0": {
+      "rate": 5.63477884637765e-05,
+      "samples": 1
+    },
+    "fluid|pic_flip|dim2|export1": {
+      "rate": 8.285685095634434e-06,
+      "samples": 59
+    },
+    "fluid|pic_flip|dim3|export0": {
+      "rate": 5.678917067352513e-06,
+      "samples": 2
+    },
+    "fluid|pic_flip|dim3|export1": {
+      "rate": 1.0284180453443107e-05,
+      "samples": 13
+    },
+    "fluid|polypic|dim2|export1": {
+      "rate": 7.151957622181738e-06,
+      "samples": 26
+    },
+    "fluid|polypic|dim3|export0": {
+      "rate": 7.15588763737437e-06,
+      "samples": 1
+    },
+    "fluid|polypic|dim3|export1": {
+      "rate": 1.1295125068022288e-05,
+      "samples": 7
+    },
+    "mpm|apic|dim2|export0": {
+      "rate": 9.98263888888889e-07,
+      "samples": 1
+    },
+    "mpm|apic|dim2|export1": {
+      "rate": 3.385416665777383e-06,
+      "samples": 1
+    },
+    "mpm|pic_flip|dim2|export0": {
+      "rate": 9.664583333223061e-07,
+      "samples": 2
+    },
+    "mpm|pic_flip|dim2|export1": {
+      "rate": 5.1475694453984025e-06,
+      "samples": 2
+    },
+    "mpm|polypic|dim2|export0": {
+      "rate": 1.5814236111004397e-06,
+      "samples": 1
+    },
+    "mpm|polypic|dim2|export1": {
+      "rate": 4.03645833305038e-06,
+      "samples": 1
+    }
+  }
+}
