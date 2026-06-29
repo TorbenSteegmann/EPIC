@@ -15,11 +15,6 @@ build/
 Orchestrator/logs/
 Orchestrator/paths.local.json
 
-# Rendered media
-*.mp4
-*.png
-*.svg
-
 # OS / editor
 .DS_Store
 Thumbs.db
